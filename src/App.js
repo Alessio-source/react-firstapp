@@ -5,6 +5,7 @@ import Button from "./components/Button.js"
 
 function App() {
   const [text, setText] = useState('Clicca Qui');
+  const [title] = useState('Hello world');
 
   function ClickConReact(event) {
     setText('Ciao');
@@ -12,7 +13,7 @@ function App() {
 
   return (
     <div>
-      <p>Hello Word</p>
+      <h1>{ title }</h1>
       <Button text={text} handleClick={ClickConReact} />
     </div>
   );
