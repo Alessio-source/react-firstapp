@@ -8,7 +8,7 @@ function App() {
   const [title] = useState('Hello world');
 
   function ClickConReact(event) {
-    if(text == "Clicca Qui") {
+    if(text === "Clicca Qui") {
       setText('Ciao');
     } else {
       setText('Clicca Qui');
